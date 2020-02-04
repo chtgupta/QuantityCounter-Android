@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="QuantityCounterView">
+        <attr name="initialText" format="string"/>
+        <attr name="maxValue" format="integer"/>
+        <attr name="themeColor" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+    </declare-styleable>
+
+</resources>
