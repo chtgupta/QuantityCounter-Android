@@ -93,6 +93,15 @@ Step 2. Add the dependency
   
 ```
 
+```java
+  // Bonus! Set typeface according to you app UI
+  
+  Typeface typeface = ResourcesCompat.getFont(this, R.font.open_sans_semibold);
+  quantityCounter.setTypeface(typeface);
+  
+```
+
+
 ## Release History
 
 * 1.0
